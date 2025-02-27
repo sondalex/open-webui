@@ -203,6 +203,12 @@ CHANGELOG = changelog_json
 SAFE_MODE = os.environ.get("SAFE_MODE", "false").lower() == "true"
 
 ####################################
+# PRINT WELCOME ASCII ART
+####################################
+
+WELCOME_ART = os.environ.get("WELCOME_ART", "true").lower() == "true"
+
+####################################
 # ENABLE_FORWARD_USER_INFO_HEADERS
 ####################################
 
